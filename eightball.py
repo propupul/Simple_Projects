@@ -1,5 +1,9 @@
 __author__ = "Propupul"
 
+# Ask a question to eightball
+# Eightball answers randomly out of a pool of 20 questions
+# Using randint
+
 
 import time
 from random import randint
