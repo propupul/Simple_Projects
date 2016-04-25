@@ -1,5 +1,5 @@
 # Simple_Projects
-# These a projects from reddit's python beginner
+# These are projects from reddit's python beginner
 # Here's the link to the google doc
 # Starts from easiest to hardest
 
