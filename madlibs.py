@@ -1,8 +1,9 @@
 __author__ = "Propupul"
 
 # MAD LIBS BABY!
-# Mad lib - Programm makes the user enter words (nouns, adjectives, verbs, place)
+# Programm makes the user enter words (nouns, adjectives, verbs,place)
 # After the user enters the words, it prints out a story using those words!
+
 
 def main():
     da_story = madlibs()
@@ -13,10 +14,8 @@ def madlibs():
     list_words = []
     for words in range(1,15):
         print("Enter word#", words)
-        
         ask_words = input()
         list_words.append(ask_words.upper())
-        
         if len(list_words) == 14:
             print("you have", list_words)
     story_in = ["Welcome to Beginner Python Projects. If you're new to", list_words[0], "{verb},in python, check out some of the",list_words[1],"{noun} for basic",list_words[2],"{plural noun} on this subreddit."
@@ -25,8 +24,8 @@ def madlibs():
                 "It is alright to post your code for a project, but please put it inside",list_words[12],"{noun} tags like this or link to it on a",list_words[13],"{adjective} website."]
     return(story_in)
 
-main()   
+main()
 
-        
 
-    
+
+
