@@ -1,6 +1,7 @@
+__author__ = "Proupul"
 import random
 
-__author__ = "Proupul"
+
 
 # Guess the number - Computer things of a number between 1 and 100
 # The user has to guess which number it is.
@@ -18,8 +19,8 @@ random_num = random.randint(1, 100)
 counter = 1
 keep_going = 'y'
 while keep_going == 'y':
-    guess = int(input("I'm thinking of a number between",
-                      "1 and 100 guess it: "))
+    guess = int(input("I'm thinking of a number between 1 and 100."
+                      " Can you guess what it is? "))
     if guess != random_num:
         counter += 1
     else:
@@ -31,3 +32,5 @@ while keep_going == 'y':
     else:
         print("You got it! It took you", counter, "tries to get the answer")
         keep_going = input("Would you like to continue? [y/n]: ")
+        if keep_going == 'y':
+            counter = 1
