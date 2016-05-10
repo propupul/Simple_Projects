@@ -12,7 +12,7 @@ def main():
 
 
 def finobacci(num):
-    a_list = list(range(num+1))
+    a_list = list(range(num))
     f0 = 0
     f1 = 1
     f2 = 1
