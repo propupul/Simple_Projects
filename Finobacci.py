@@ -6,12 +6,12 @@ __author__ = "Propupul"
 
 def main():
     number = int(input("Enter an integer: "))
-    fino = finobacci(number)
+    fibonacci(number)
 
 
 
 
-def finobacci(num):
+def fibonacci(num):
     a_list = list(range(num))
     f0 = 0
     f1 = 1
