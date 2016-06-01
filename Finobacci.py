@@ -8,7 +8,7 @@ def main():
     number = int(input("Enter an integer: "))
     fino = finobacci(number)
 
-    
+
 
 
 def finobacci(num):
@@ -21,21 +21,13 @@ def finobacci(num):
     print(f2)
     result = 0
     for number in a_list:
-        
+
         adding = f1 + f2
         result = adding + f2
         f1 = adding
         f2 = result
         print(f1)
         print(f2)
-        
-            
-        
-        
-        
-            
-            
-        
 
 
 main()
