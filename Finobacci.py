@@ -8,9 +8,6 @@ def main():
     number = int(input("Enter an integer: "))
     fibonacci(number)
 
-
-
-
 def fibonacci(num):
     a_list = list(range(num))
     f0 = 0
